@@ -1,0 +1,44 @@
+body {
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 600px;
+  text-align: center;
+  font-size: 1.3em;
+  font-family: Verdana, Arial, sans-serif;
+  user-select: none;
+  background-color: #fbeec1;
+  color: #333;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+button {
+  font-size: 1em;
+  margin-top: 20px;
+}
+
+button, div.box {
+  cursor: pointer;
+}
+
+div#checklist {
+  margin-top: 20px;
+}
+
+div.box {
+  background-color: #a5c2a0;
+  padding: 15px;
+  margin-top: 15px;
+}
+
+div.box.active {
+  background-color: #385134;
+  color: white;
+}
+
+div.box:focus, button:focus {
+  outline: 3px solid #66492F;
+}
